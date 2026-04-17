@@ -12,7 +12,7 @@ h1 {
   color: rgb(231, 94, 3);
 }
 h2 {
-  font-size: 24px;
+  font-size: 30px;
   margin-top: 30px;
   margin-bottom: 20px;
   color: rgb(255, 217, 0);
@@ -43,7 +43,7 @@ nav ul {
 }
 
 nav a {
-  color: #fac295;
+  color: #d16914;
   text-decoration: none;
   font-weight: bold;
   font-size: 30px;
@@ -54,13 +54,6 @@ nav a:hover {
   color: rgb(255, 255, 255);
 }
 
-.cardjogos {
-  display: flex;
-  align-items: left;
-  margin-top: -300px;
-  height: 600px;
-}
-
 .cardtexto {
   text-align: center;
   margin-left: auto;
@@ -68,8 +61,91 @@ nav a:hover {
   margin-bottom: 200px;
 }
 
-.Titulo {
-  font-size: 30px;
-  color: rgb(255, 255, 255);
-  text-align: center;
+h3 {
+  font-size: 20px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  color: rgb(255, 217, 0);
+}
+
+.cardjogos {
+  width: 1000px;
+  border-radius: 5px;
+  margin-left: 70px;
+}
+.conteudo {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+}
+
+.texto {
+  color: white;
+  text-align: left;
+  margin-left: -120px;
+}
+.texto h1 {
+  color: #c41b04;
+}
+
+.texto h2 {
+  color: #ffcc00;
+}
+
+.texto p {
+  line-height: 1.6;
+}
+
+.jogosvorazes {
+  background: linear-gradient(rgb(228, 198, 68), rgb(184, 115, 26), black)
+    #0f172a;
+}
+
+.cardjogos2 {
+  width: 250px;
+  border-radius: 30px;
+  margin-left: 200px;
+  margin-bottom: 130px;
+}
+
+.texto2 {
+  color: white;
+  text-align: left;
+  margin-bottom: 130px;
+}
+
+.texto2 h1 {
+  color: #c41b04;
+}
+
+.texto2 h2 {
+  color: #ffcc00;
+}
+
+/* PARÁGRAFO */
+.texto2 p {
+  line-height: 1.6;
+}
+
+.emchamas {
+  background: linear-gradient(rgb(255, 171, 122), rgb(184, 44, 26), black)
+    #0f172a;
+}
+
+.aesperanca {
+  background: linear-gradient(rgb(133, 190, 255), rgb(71, 110, 218), black)
+    #0f172a;
+}
+
+.cardjogos3 {
+  width: 250px;
+  border-radius: 30px;
+  margin-left: 100px;
+  margin-bottom: 130px;
+}
+
+.cardjogos4 {
+  width: 250px;
+  border-radius: 30px;
+  margin-bottom: 130px;
 }
